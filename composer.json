@@ -1,0 +1,15 @@
+{
+    "name": "biffbangpow/git-recipe",
+    "description": "A Deployer recipe for a very simple git based deployment",
+    "type": "library",
+    "require": {
+        "deployer/deployer": "6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Arslett",
+            "email": "william.a@biffbangpow.com"
+        }
+    ]
+}
