@@ -2,11 +2,6 @@
 
 namespace Deployer;
 
-use Symfony\Component\Console\Input\InputOption;
-
-option('tag', null, InputOption::VALUE_REQUIRED, 'Tag to deploy');
-option('branch', null, InputOption::VALUE_REQUIRED, 'Branch to deploy');
-
 task('git:checkout', function () {
 
     if (input()->hasOption('tag')) {

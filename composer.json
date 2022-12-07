@@ -3,13 +3,13 @@
     "description": "A Deployer recipe for a very simple git based deployment",
     "type": "library",
     "require": {
-        "deployer/deployer": "6.2"
+        "deployer/deployer": "7.0"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "William Arslett",
-            "email": "william.a@biffbangpow.com"
+            "name": "James Heathcote",
+            "email": "james.h@biffbangpow.com"
         }
     ]
 }
